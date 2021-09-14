@@ -13,7 +13,7 @@ document.getElementById("display1").innerHTML = "<p> Since " + deg1 + " squared 
 document.getElementById("display2").innerHTML = "<p> and " + deg2 + " squared = " + Math.pow(deg2, 2) + ", </p>";
 
 // Calculates and displays the missing degree of the triangle by getting the square root of "calculated", and rounds it to 2 decimal points.
-document.getElementById("display3").innerHTML = "<p>then the third angle is: " + Math.sqrt(calculated).toFixed(2) + "!</p>";
+document.getElementById("display3").innerHTML = "<p>then the third side is: " + Math.sqrt(calculated).toFixed(2) + "!</p>";
 
 // If you didn't use a number for one of the degrees you, get this error message.
 if (isNaN(calculated)){
