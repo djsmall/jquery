@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    background-color: #2d504e;
+}
+
+article{
+    text-align: center;
+    background-color: #ede4d3;
+    margin: auto;
+    margin-top: 2em;
+    padding: 3em;
+    width: 600px;
+    border-radius: 5px;
+}
+
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: #202e35;
+}
+
+p{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    margin: 1em;
+}
